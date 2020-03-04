@@ -2,23 +2,294 @@
 <html>
 
 <head>
-<title>Page Title</title>
+    <title>BEM Website</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d280d8d72e.js" crossorigin="anonymous"></script>
 </head>
 
 
 
 
-<body>
-    
-<header>
-<nav></nav>
-</header>
+<body class="screen">
 
-<main>
-</main>
+    <header class="background nav__style">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <nav class="nav__bar">
+                <ul class="nav__list flex__container">
+                    <li><a class="nav__link--services" href="#services">Services</a></li>
+                    <li><a class="nav__link--about" href="#about">About</a></li>
+                    <li><a class="nav__link--contact" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <section class="header__container flex__between">
+                <div class="column text__box">
+                    <p class="blue__text">
+                        An Agency That Helps You
+                    </p>
+                    <p class="heading__one">
+                        Grow your Business
+                    </p>
+                    <p class="black__text">
+                        Build an award winning
+                        website that grows your
+                        business with the help of
+                        Last Door. Our 15+ years
+                        of experience in building
+                        websites have grown businesses
+                        of 1000+ clients.
+                    </p>
+
+                    <div>
+                        <button class="button" type="button">Get Your Free Consultation Now</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="illustration" src="./img/illustration.png" alt="illustration">
+                </div>
+            </section>
+        </div>
 
 
-<footer></footer>
+        <section class="white__box flex__center" id="services">
+            <div class="center">
+                <p class="blue__text">
+                    Our Services
+                </p>
+                <p class="heading__two">
+                    Why choose Agency theme
+                </p>
+            </div>
+
+            <section class="container space__around">
+                <div class="small__box column center">
+                    <i class="fas fa-laptop-code fa-4x orange__color"></i>
+                    <p class="text__darkblue">
+                        Ultra Responsive
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Maecenas hendrerit in erat nec
+                        fermentum vestibulum.
+                    </p>
+                </div>
+
+                <div class="column small__box center">
+                    <i class="fas fa-award fa-4x orange__color"></i>
+                    <p class="text__darkblue">
+                        Award Winning Design
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Maecenas hendrerit in erat nec
+                        fermentum. Aliquam rutrum vestibulum.
+                    </p>
+                </div>
+
+                <div class="small__box column center">
+                    <i class="fas fa-phone-alt fa-4x orange__color"></i>
+                    <p class="text__darkblue">
+                        Support & Updates
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Maecenas hendrerit in erat nec fermentum.
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <section class="grey__box flex__center">
+            <div class="space__around">
+                <div class="column">
+                    <div class="numbers__font">
+                        7.5k <span class="orange__color">+</span>
+                    </div>
+                    <p class="blue__text">
+                        Websites, Softwares & Apps.
+                    </p>
+                </div>
+                <div class="column">
+                    <div class="numbers__font">
+                        15yrs <span class="orange__color">+</span>
+                    </div>
+                    <p class="blue__text">
+                        Years of Experience
+                    </p>
+                </div>
+                <div class="column">
+                    <div class="numbers__font">
+                        6.2k <span class="orange__color">+</span>
+                    </div>
+                    <p class="blue__text">
+                        Customers Served
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="large__whitebox flex__center" id="about">
+            <div class="center">
+                <p class="blue__text">
+                    Robust Agency
+                </p>
+                <p class="heading__three">
+                    About Us
+                </p>
+            </div>
+
+            <div class="flex__center">
+                <div class="space__around">
+                    <div class="column width__box">
+                        <i>
+                            We specialise in website design,
+                            user interfaces, development & copywriting.
+                        </i>
+                        <p>
+                            We’re a website development studio
+                            focussed on creating immersive digital
+                            strategies for your business that take
+                            established brands to new heights and
+                            launch ambitious start-ups towards their goals.
+                        </p>
+                    </div>
+
+                    <div class="column widthbox__two">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo
+                            consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus.
+                            Ut ultrices ultricies finibus. Donec rutrum felis convallis, efficitur tellus sit amet,
+                            tristique metus. Integer eget sagittis urna.
+                        </p>
+                        <p>
+                            Aenean et facilisis mi, ut posuere eros. Vivamus nec velit at diam pretium blandit id nec
+                            urna. Aenean dignissim vehicula sapien ut vehicula. Aliquam gravida metus non ullamcorper
+                            vestibulum. Mauris lobortis purus at diam posuere, at molestie massa lobortis.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container space__around margin__top">
+                <div class="column">
+                    <img src="./img/logo-hello-fresh.png" alt="logoFresh">
+                </div>
+                <div class="column">
+                    <img src="./img/logo-trivago.png" alt="logoTrivago">
+                </div>
+                <div class="column">
+                    <img src="./img/logo-los-angelese-times.png" alt="logoTimes">
+                </div>
+                <div class="column">
+                    <img src="./img/logo-oracle.png" alt="logoOracle">
+                </div>
+                <div class="column">
+                    <img src="./img/logo-target.png" alt="logoTarget">
+                </div>
+            </div>
+
+            <div class="header__container space__around">
+                <div class="column widthbox__three">
+                    <p class="heading__four">
+                        Please Relax, we will do the work.
+                    </p>
+                    <p class="black__text">
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Morbi iaculis nisl vulputate
+                        justo consequat tempor. Nam
+                        gravida sed ipsum in pellentesque.
+                        Cras pellentesque placerat cursus.
+                    </p>
+                    <ul class="none__deco black__text">
+                        <li>
+                            <i class="fas fa-check orange__color"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </li>
+                        <li>
+                            <i class="fas fa-check orange__color"></i>
+                            Morbi iaculis nisl vulputate justo consequat tempor.
+                        </li>
+                        <li>
+                            <i class="fas fa-check orange__color"></i>
+                            Nam gravida sed ipsum in pellentesque.
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <img src="./img/Bitmap.png" alt="bitmap">
+                </div>
+            </div>
+        </section>
+
+        <section class="orange__box center flex__center">
+            <p class="white__text space__around">
+                An Agency That Helps You
+            </p>
+            <p class="heading__five">
+                Start Building your Website today
+            </p>
+            <p class="white__text widthbox__five">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+                Integer ultrices purus lectus,
+                et accumsan nibh suscipit sed.
+                Nullam lorem dui, congue pharetra
+                posuere vel, imperdiet ac lorem.
+            </p>
+            <div>
+                <button class="blue__button" type="button">Get Started Now</button>
+            </div>
+        </section>
+
+        <section class="darkblue__box flex__center" id="contact">
+            <div class="container space__around">
+                <form class="column">
+                    <p class="whitetext__large center">Contact Us</p>
+                    <label class="smallwhite__text margin__10">Full Name</label>
+                    <input class="margin-10 padding__10 form__background" type="text" required
+                        placeholder="Your full name">
+
+                    <label class="smallwhite__text margin__10">Your Email Address</label>
+                    <input class="margin-10 padding__10 form__background"
+                        type="text" required placeholder="Your email">
+
+                    <label class="smallwhite__text margin__10">Your Message</label> 
+                    <textarea name="textarea" cols="30" rows="5" class="form__background" placeholder="Type your message here..."></textarea>
+                     
+                    <div>
+                        <p><button class="button__two--orange" type="submit">Submit Your Message</button></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+        <footer class="my__footer flex__center">
+            <div class="footer__text space__around">
+                <p>Copyright © 2018 LastDoor.Store</p>
+            </div>
+        </footer>
+
+    </header>
+
+
+
 
 </body>
+
 </html>
